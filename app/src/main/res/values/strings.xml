@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Prueba01_Allison_Aulestia</string>
+
+    <string name="textViewNombre">Nombre</string>
+    <string name="editTextNombre">Ingrese el nombre</string>
+    <string name="textViewApellido">Apellido</string>
+    <string name="editTextApellido">Ingrese el apellido</string>
+    <string name="textViewDividendo">Dividendo</string>
+    <string name="editTextDividendo">Ingrese el dividendo</string>
+    <string name="textViewDivisor">Divisor</string>
+    <string name="editTextDivisor">Ingrese el divisor</string>
+    <string name="textViewParteEntera">Parte Entera</string>
+    <string name="editTextParteEntera">Ingrese la parte entera</string>
+    <string name="textViewResiduo">Residuo</string>
+    <string name="editTextResiduo">Ingrese el residuo</string>
+    <string name="textViewNum_Invertido">Numero Invertido</string>
+    <string name="editTextNum_Invertido">Ingrese el numero</string>
+    <string name="button_Siguiente">Siguiente</string>
+    <string name="button_Resultado">Mostrar Resultado</string>
+
+
+</resources>
