@@ -50,8 +50,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="none"
-        android:enabled="false"
         android:hint="@string/editTextDividendo" />
 
     <TextView
@@ -65,54 +63,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="none"
-        android:enabled="false"
         android:hint="@string/editTextDivisor" />
 
+
     <TextView
-        android:id="@+id/textViewParteEntera"
+        android:id="@+id/textViewNumero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/textViewParteEntera" />
+        android:text="@string/textViewNumero" />
 
     <EditText
-        android:id="@+id/editTextParteEntera"
+        android:id="@+id/editTextNumero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="none"
-        android:enabled="false"
-        android:hint="@string/editTextParteEntera" />
-
-    <TextView
-        android:id="@+id/textViewResiduo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/textViewResiduo" />
-
-    <EditText
-        android:id="@+id/editTextResiduo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="none"
-        android:enabled="false"
-        android:hint="@string/editTextResiduo" />
-
-    <TextView
-        android:id="@+id/textViewNum_Invertido"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/textViewNum_Invertido" />
-
-    <EditText
-        android:id="@+id/editTextNum_Invertido"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="none"
-        android:enabled="false"
-        android:hint="@string/editTextNum_Invertido" />
+        android:hint="@string/editTextNumero" />
 
     <Button
         android:id="@+id/button_Siguiente"
