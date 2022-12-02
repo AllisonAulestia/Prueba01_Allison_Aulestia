@@ -21,11 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         editTextNombre = findViewById(R.id.editTextNombre);
-        String nombreEditText = editTextNombre.getText().toString();
-        SecondActivity.contenidoEditTextNombre = nombreEditText;
         editTextApellido = findViewById(R.id.editTextApellido);
-        String apellidoEditText = editTextNombre.getText().toString();
-        SecondActivity.contenidoEditTextApellido = apellidoEditText;
         button_Siguiente = (Button) findViewById(R.id.button_Siguiente);
 
         button_Siguiente.setOnClickListener(new View.OnClickListener() {
